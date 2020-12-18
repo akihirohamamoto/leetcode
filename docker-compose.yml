@@ -1,0 +1,6 @@
+version: '3'
+services:
+  leetcode:
+    image: node
+    volumes:
+      - ..:/workspace:cached
