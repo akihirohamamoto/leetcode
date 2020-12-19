@@ -1,3 +1,8 @@
+# @before-stub-for-debug-begin
+from python3problem1 import *
+from typing import *
+# @before-stub-for-debug-end
+
 #
 # @lc app=leetcode id=1 lang=python3
 #
@@ -5,8 +10,9 @@
 #
 
 # @lc code=start
+import itertools
 class Solution:
-    def bruteforce(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
         nums_under_targets = list(range(len(nums)))
         for i in list(itertools.combinations(nums_under_targets, 2)):
             if nums[i[0]] + nums[i[1]] == target: return i
@@ -17,7 +23,7 @@ class Solution:
     Your memory usage beats 6.91 % of python3 submissions (51.2 MB)
     """
 
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    # def twoSum(self, nums: List[int], target: int) -> List[int]:
        
 # @lc code=end
-
+# debug case 1 : [1,2,3]\n4
