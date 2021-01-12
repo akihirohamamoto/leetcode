@@ -1,9 +1,8 @@
 version: '3'
 services:
   leetcode:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image : python-nodejs
+    container_name: dev-container
     volumes:
       - ..:/workspace:cached
     restart: always
