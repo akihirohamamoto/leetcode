@@ -22,8 +22,6 @@ class Solution:
     Your runtime beats 31.61 % of python3 submissions
     Your memory usage beats 6.91 % of python3 submissions (51.2 MB)
     """
-
-    # def twoSum(self, nums: List[int], target: int) -> List[int]:
        
 # @lc code=end
 # debug case 1 : [1,2,3]\n4
